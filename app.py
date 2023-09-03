@@ -7,6 +7,7 @@ import os,sys
 from src.pipeline.train_pipeline import TraininingPipeline
 from src.pipeline.predict_pipeline import PredictionPipeline
 
+# Homepage
 app = Flask(__name__)
 
 @cross_origin
